@@ -13,18 +13,18 @@
 </p>
 
 
-## What is Svelte?
+## O que é Svelte?
 
-Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+Svelte é uma nova forma de desenvolver aplicações web. É um compilador que converte seus componentes em um JavaScript eficiente que atualiza o DOM de forma precisa.
 
-Learn more at the [Svelte website](https://svelte.dev), or stop by the [Discord chatroom](https://svelte.dev/chat).
+Saiba mais no [Website do Svelte](https://br.svelte.dev), ou na nossa [Comunidade no Discord](https://br.svelte.dev/chat).
 
 
-## Development
+## Desenvolvimento
 
-Pull requests are encouraged and always welcome. [Pick an issue](https://github.com/sveltejs/svelte/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) and help us out!
+*Pull requests* são bem-vindos e encorajados. [Escolha uma Issue](https://github.com/sveltejs/svelte/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) e ajude o projeto.
 
-To install and work on Svelte locally:
+Para instalar e trabalhar com Svelte localmente:
 
 ```bash
 git clone https://github.com/sveltejs/svelte.git
@@ -32,21 +32,22 @@ cd svelte
 npm install
 ```
 
-> Do not use Yarn to install the dependencies, as the specific package versions in `package-lock.json` are used to build and test Svelte.
+> Não use o Yarn para instalar as dependências, pois as versões especificadas no `package-lock.json` são usadas para criar e testar o Svelte.
 
-To build the compiler, and all the other modules included in the package:
+Para compilar todos os modulos inclusos:
 
 ```bash
 npm run build
 ```
 
-To watch for changes and continually rebuild the package (this is useful if you're using [npm link](https://docs.npmjs.com/cli/link.html) to test out changes in a project locally):
+Para rodar em modo de desenvolvimento e ficar observando todas as mudanças (isso é útil se você estiver usando o [link npm](https://docs.npmjs.com/cli/link.html) para testar localmente as alterações em um projeto):
+
 
 ```bash
 npm run dev
 ```
 
-The compiler is written in [TypeScript](https://www.typescriptlang.org/), but don't let that put you off — it's basically just JavaScript with type annotations. You'll pick it up in no time. If you're using an editor other than [Visual Studio Code](https://code.visualstudio.com/) you may need to install a plugin in order to get syntax highlighting and code hints etc.
+O compilador é escrito em [TypeScript](https://www.typescriptlang.org/), mas não deixe isto te indimidar — É apenas JavaScript com tipagem. Você entenderá rápido. Se você utilizar outro editor diferente do [Visual Studio Code](https://code.visualstudio.com/), precisará instalar um plugin para que ele entenda a syntax e faça o highlight do código e dê sugestões.
 
 
 ### Running Tests
@@ -55,16 +56,16 @@ The compiler is written in [TypeScript](https://www.typescriptlang.org/), but do
 npm run test
 ```
 
-To filter tests, use `-g` (aka `--grep`). For example, to only run tests involving transitions:
+Para filtrar os testes, use `-g` (como `--grep`). Por exemplo, para rodar testes envolvendo apenas transições:
 
 ```bash
 npm run test -- -g transition
 ```
 
 
-## svelte.dev
+## br.svelte.dev
 
-The source code for https://svelte.dev, including all the documentation, lives in the [site](site) directory. The site is built with [Sapper](https://sapper.svelte.dev). To develop locally:
+O código-fonte do http://br.svelte.dve, incluindo toda a documentação, encontra-se na pasta [site](site). O site é desenvolvido com [Sapper](https://sapper.svelte.dev). Para desenvolver localmente:
 
 ```bash
 cd site
@@ -72,10 +73,10 @@ npm install && npm run update
 npm run dev
 ```
 
-### Is svelte.dev down?
+### O br.svelte.dev caiu?
 
-Probably not, but it's possible. If you can't seem to access any `.dev` sites, check out [this SuperUser question and answer](https://superuser.com/q/1413402).
+Provavelmente não, mas é possível. Se você não conseguir acessar nenhum site `.dev`, consulte este [FAQ](https://superuser.com/q/1413402).
 
-## License
+## Licença
 
 [MIT](LICENSE)
