@@ -15,7 +15,7 @@
 
 ## O que é Svelte?
 
-Svelte é uma nova forma de desenvolver aplicações web. É um compilador que converte seus componentes em um JavaScript eficiente que atualiza o DOM de forma precisa.
+Svelte é uma nova forma de desenvolver aplicações web. É um compilador que converte seus componentes em um JavaScript eficiente e que atualiza o DOM de forma precisa.
 
 Saiba mais no [Website do Svelte](https://br.svelte.dev), ou na nossa [Comunidade no Discord](https://br.svelte.dev/chat).
 
@@ -65,7 +65,7 @@ npm run test -- -g transition
 
 ## br.svelte.dev
 
-O código-fonte do http://br.svelte.dve, incluindo toda a documentação, encontra-se na pasta [site](site). O site é desenvolvido com [Sapper](https://sapper.svelte.dev). Para desenvolver localmente:
+O código-fonte do http://br.svelte.dev, incluindo toda a documentação, encontra-se na pasta [site](site). O site é desenvolvido com [Sapper](https://sapper.svelte.dev). Para desenvolver localmente:
 
 ```bash
 cd site
